@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    
+
+}
+.box {
+    border-left: 10px dotted #D0D0FF;
+    font-family: Tahoma;
+    cursor: pointer;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    margin: 10px;
+}
+.box:hover {
+        background: yellow;
+}
+
+
+.box h1, h2, h3, h4, h5, h6 {
+margin-left: 10px;
+margin-top: 10px;
+font-size: 40px;
+}
+
+#box-6 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
